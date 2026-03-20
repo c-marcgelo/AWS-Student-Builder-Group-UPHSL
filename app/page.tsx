@@ -9,10 +9,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Home',
-  description: 'AWS Learning Club at UPHSL - Join our community of cloud computing enthusiasts. Meet our team: Zyrus Alvez (President), Renzo Ramos (Vice President), and dedicated officers. Attend AWS workshops, seminars, and events.',
+  description: 'AWS Cloud Club at UPHSL - Join our community of cloud computing enthusiasts. Meet our team: Zyrus Alvez (President), Renzo Ramos (Vice President), and dedicated officers. Attend AWS workshops, seminars, and events.',
   openGraph: {
-    title: 'AWS Learning Club - UPHSL | Home',
-    description: 'Join the AWS Learning Club at University of Perpetual Help System Laguna',
+    title: 'AWS Cloud Club - UPHSL | Home',
+    description: 'Join the AWS Cloud Club at University of Perpetual Help System Laguna',
   },
 };
 

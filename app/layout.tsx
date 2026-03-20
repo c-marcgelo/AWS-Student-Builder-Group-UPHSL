@@ -6,13 +6,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://awslc.uphsl.edu.ph'),
   title: {
-    default: 'AWS Learning Club - UPHSL | Amazon Web Services Student Community',
-    template: '%s | AWS Learning Club - UPHSL'
+    default: 'AWS Cloud Club - UPHSL | Amazon Web Services Student Community',
+    template: '%s | AWS Cloud Club - UPHSL'
   },
-  description: 'Official AWS Learning Club at University of Perpetual Help System Laguna (UPHSL) Biñan. Join our cloud computing community led by Zyrus Alvez, Renzo Ramos, and team. Learn AWS services, attend workshops, and build your tech career.',
+  description: 'Official AWS Cloud Club at University of Perpetual Help System Laguna (UPHSL) Biñan. Join our cloud computing community led by Zyrus Alvez, Renzo Ramos, and team. Learn AWS services, attend workshops, and build your tech career.',
   keywords: [
-    'AWS Learning Club',
-    'AWS Learning Club UPHSL',
+    'AWS Cloud Club',
+    'AWS Cloud Club UPHSL',
     'UPHSL AWS',
     'Amazon Web Services UPHSL',
     'Cloud Computing UPHSL',
@@ -40,34 +40,34 @@ export const metadata: Metadata = {
     'AWS Certification',
     'Tech Community Philippines'
   ],
-  authors: [{ name: 'AWS Learning Club - UPHSL' }],
-  creator: 'AWS Learning Club - UPHSL',
-  publisher: 'AWS Learning Club - UPHSL',
+  authors: [{ name: 'AWS Cloud Club - UPHSL' }],
+  creator: 'AWS Cloud Club - UPHSL',
+  publisher: 'AWS Cloud Club - UPHSL',
   icons: {
-    icon: '/awslc logo.webp',
-    apple: '/awslc logo.webp',
+    icon: '/awscc logo.webp',
+    apple: '/awscc logo.webp',
   },
   openGraph: {
     type: 'website',
     locale: 'en_PH',
     url: 'https://awslc.uphsl.edu.ph',
-    siteName: 'AWS Learning Club - UPHSL',
-    title: 'AWS Learning Club - UPHSL | Amazon Web Services Student Community',
-    description: 'Official AWS Learning Club at University of Perpetual Help System Laguna. Join our cloud computing community and learn AWS services.',
+    siteName: 'AWS Cloud Club - UPHSL',
+    title: 'AWS Cloud Club - UPHSL | Amazon Web Services Student Community',
+    description: 'Official AWS Cloud Club at University of Perpetual Help System Laguna. Join our cloud computing community and learn AWS services.',
     images: [
       {
-        url: '/awslc logo.webp',
+        url: '/awscc logo.webp',
         width: 1200,
         height: 630,
-        alt: 'AWS Learning Club UPHSL Logo',
+        alt: 'AWS Cloud Club UPHSL Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AWS Learning Club - UPHSL',
-    description: 'Official AWS Learning Club at University of Perpetual Help System Laguna',
-    images: ['/awslc logo.webp'],
+    title: 'AWS Cloud Club - UPHSL',
+    description: 'Official AWS Cloud Club at University of Perpetual Help System Laguna',
+    images: ['/awscc logo.webp'],
   },
   robots: {
     index: true,
@@ -89,11 +89,11 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "AWS Learning Club - UPHSL",
+    "name": "AWS Cloud Club - UPHSL",
     "alternateName": "AWSLC UPHSL",
     "url": "https://awslc.uphsl.edu.ph",
-    "logo": "https://awslc.uphsl.edu.ph/awslc logo.webp",
-    "description": "Official AWS Learning Club at University of Perpetual Help System Laguna",
+    "logo": "https://awslc.uphsl.edu.ph/awscc logo.webp",
+    "description": "Official AWS Cloud Club at University of Perpetual Help System Laguna",
     "email": "awslc.uphsl@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -125,7 +125,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
       {"@type": "Person", "name": "Ram Andrei Manalo", "jobTitle": "Multimedia Specialist"}
     ],
     "sameAs": [
-      "https://www.facebook.com/awslcuphsl"
+      "https://www.facebook.com/awscloudclub"
     ]
   };
 

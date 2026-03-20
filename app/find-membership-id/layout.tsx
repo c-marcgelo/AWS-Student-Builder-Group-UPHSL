@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Find Your Membership ID',
-  description: 'Retrieve your AWS Learning Club UPHSL membership ID using your school email. Access your membership information and benefits.',
-  keywords: ['find membership ID', 'AWS Learning Club membership', 'UPHSL membership lookup'],
+  description: 'Retrieve your AWS Cloud Club UPHSL membership ID using your school email. Access your membership information and benefits.',
+  keywords: ['find membership ID', 'AWS Cloud Club membership', 'UPHSL membership lookup'],
   openGraph: {
-    title: 'Find Your Membership ID - AWS Learning Club UPHSL',
-    description: 'Retrieve your AWS Learning Club UPHSL membership ID',
+    title: 'Find Your Membership ID - AWS Cloud Club UPHSL',
+    description: 'Retrieve your AWS Cloud Club UPHSL membership ID',
   },
 };
 

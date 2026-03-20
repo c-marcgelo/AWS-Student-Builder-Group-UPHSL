@@ -19,8 +19,8 @@ const Footer = () => {
         <div className='grid md:grid-cols-4 gap-6 text-sm'>
           <div className='col-span-2 md:col-span-2'>
             <Link href='/' className='flex items-center mb-2 hover:opacity-80 transition-opacity'>
-              <Image src='/awslc logo.webp' alt='AWS Learning Club' width={24} height={24} />
-              <span className='ml-2 text-base font-bold'>AWS Learning Club</span>
+              <Image src='/awscc logo.webp' alt='AWS Cloud Club' width={24} height={24} />
+              <span className='ml-2 text-base font-bold'>AWS Cloud Club</span>
             </Link>
             <p className='text-gray-400 text-xs mb-3'>
               UPHSL's community for cloud computing growth and AWS learning.
@@ -89,7 +89,7 @@ const Footer = () => {
 
         <div className='border-t border-[#ffa23f]/30 mt-4 pt-4 text-center text-xs'>
           <p className='text-gray-500'>
-            © 2026 AWS Learning Club - UPHSL. All rights reserved.
+            © 2026 AWS Cloud Club - UPHSL. All rights reserved.
           </p>
         </div>
       </div>
