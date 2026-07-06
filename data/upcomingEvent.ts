@@ -18,5 +18,14 @@ export const upcomingEvents = [
     time: "TBA",
     location: "TBA",
     type: EventType.WORKSHOP,
+  },
+  {
+    title: "Start From Zero with Kiro – An Introduction to Kiro",
+    subtitle:
+      "A hands-on workshop designed to introduce students to Kiro, Amazon's AI-powered IDE, through practical demonstrations and guided activities that showcase AI-assisted software development workflows and modern engineering practices.",
+    date: "August 1, 2026",
+    time: "10:00AM - 4:00PM",
+    location: "Macintosh Laboratory, UPHSL",
+    type: EventType.WORKSHOP,
   }
 ]
