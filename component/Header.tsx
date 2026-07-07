@@ -22,7 +22,7 @@ const Header = () => {
       <header className='h-[70px] w-full fixed bg-black/20 backdrop-blur-sm z-49 flex items-center px-4 md:px-8 justify-between'>
         <div className="flex gap-2 md:gap-4 items-center text-white font-extrabold text-lg md:text-xl">
           <Image src="/awssbg logo.png" alt="AWS Student Builder Group" width={45} height={45} className="md:w-14 md:h-14"/>
-          <h1>AWS SBG - UPHSL</h1>
+          <h1>AWS STUDENT BUILDER GROUP – UPHSL</h1>
         </div>
         
         {/* Desktop Navigation */}
